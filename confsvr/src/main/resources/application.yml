@@ -1,0 +1,10 @@
+server:
+  port: 8888
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:///Users/zhanggai/idea_workspace/mcs-chapter3/confsvr/src/main/resources/config/licensingserver
