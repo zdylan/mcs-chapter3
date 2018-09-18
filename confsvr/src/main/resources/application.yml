@@ -7,4 +7,5 @@ spring:
     config:
       server:
         native:
-          search-locations: file:///Users/zhanggai/idea_workspace/mcs-chapter3/confsvr/src/main/resources/config/licensingserver
+          search-locations: file:///Users/dylan/IdeaProjects/mcs-chapter3/confsvr/src/main/resources/config/licensingserver
+#          search-locations: file:///Users/zhanggai/idea_workspace/mcs-chapter3/confsvr/src/main/resources/config/licensingserver
