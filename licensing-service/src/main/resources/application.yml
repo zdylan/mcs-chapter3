@@ -7,3 +7,6 @@ spring:
     hibernate:
       ddl-auto: create
     show-sql: true
+management:
+  security:
+    enabled: false
