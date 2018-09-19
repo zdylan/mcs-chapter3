@@ -10,3 +10,7 @@ spring:
 management:
   security:
     enabled: false
+
+
+example:
+  property: "Hello world"
