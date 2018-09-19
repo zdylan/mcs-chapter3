@@ -3,5 +3,8 @@ spring:
     name: licensingservice
   profiles:
     active: default
-server:
-  port: 8889
+  cloud:
+    config:
+      uri: http://localhost:8888
+#server:
+#  port: 8889

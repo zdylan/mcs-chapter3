@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/confsvr/configurationserver.iml" filepath="$PROJECT_DIR$/confsvr/configurationserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/licensing-service/licensing-service.iml" filepath="$PROJECT_DIR$/licensing-service/licensing-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/tmx-parent-pom.iml" filepath="$PROJECT_DIR$/tmx-parent-pom.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tmx-parent-pom.iml" filepath="$PROJECT_DIR$/tmx-parent-pom.iml" />
     </modules>
   </component>
 </project>
