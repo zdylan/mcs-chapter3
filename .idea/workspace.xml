@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08ca3e7c-da90-4d38-9d93-e08a9cd836ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_45.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/licensing-service/src/main/java/com/thoughtmechanix/licensingservice/config/ServiceConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licensing-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/licensing-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/licensing-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/licensing-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,7 +35,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Dockerfile" value="280" />
-          <entry key="java" value="17" />
+          <entry key="java" value="100" />
           <entry key="sh" value="546" />
           <entry key="xml" value="943" />
           <entry key="yml" value="175" />
@@ -46,7 +45,7 @@
         <counts>
           <entry key="Bash" value="546" />
           <entry key="Dockerfile" value="280" />
-          <entry key="JAVA" value="17" />
+          <entry key="JAVA" value="100" />
           <entry key="XML" value="943" />
           <entry key="YAML" value="175" />
         </counts>
@@ -54,19 +53,19 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Dockerfile" value="1" />
-          <entry key="java" value="1" />
+          <entry key="java" value="2" />
           <entry key="sh" value="1" />
           <entry key="xml" value="5" />
-          <entry key="yml" value="5" />
+          <entry key="yml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Bash" value="1" />
           <entry key="Dockerfile" value="1" />
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="2" />
           <entry key="XML" value="5" />
-          <entry key="YAML" value="5" />
+          <entry key="YAML" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -76,8 +75,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/licensing-service/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state>
+              <caret selection-start-column="1" selection-end-line="11" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confsvr/src/main/resources/config/licensingservice/licensingservice.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -85,13 +93,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/licensing-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="77" column="52" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
+            <state relative-caret-position="171">
+              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/licensing-service/src/main/java/com/thoughtmechanix/licensingservice/config/ServiceConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -112,6 +141,7 @@
         <option value="$PROJECT_DIR$/licensing-service/src/main/docker/run.sh" />
         <option value="$PROJECT_DIR$/licensing-service/src/main/docker/Dockerfile" />
         <option value="$PROJECT_DIR$/licensing-service/pom.xml" />
+        <option value="$PROJECT_DIR$/licensing-service/src/main/java/com/thoughtmechanix/licensingservice/config/ServiceConfig.java" />
         <option value="$PROJECT_DIR$/licensing-service/src/main/resources/application.yml" />
       </list>
     </option>
@@ -200,6 +230,41 @@
             <path>
               <item name="mcs-chapter3" type="b2602c69:ProjectViewProjectNode" />
               <item name="mcs-chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="confsvr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mcs-chapter3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mcs-chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="confsvr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mcs-chapter3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mcs-chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="confsvr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mcs-chapter3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mcs-chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="confsvr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mcs-chapter3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mcs-chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="confsvr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="licensingservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mcs-chapter3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mcs-chapter3" type="462c0819:PsiDirectoryNode" />
               <item name="licensing-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -214,6 +279,23 @@
               <item name="licensing-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mcs-chapter3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mcs-chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="licensing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mcs-chapter3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mcs-chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="licensing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="licensingservice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mcs-chapter3" type="b2602c69:ProjectViewProjectNode" />
@@ -240,7 +322,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537374181883" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537374952966" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -464,19 +546,19 @@
       <workItem from="1537344513726" duration="134000" />
       <workItem from="1537344671714" duration="430000" />
       <workItem from="1537345145385" duration="1931000" />
-      <workItem from="1537364964823" duration="6974000" />
+      <workItem from="1537364964823" duration="7639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20465000" />
+    <option name="totallyTimeSpent" value="21130000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="23" width="1365" height="856" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31897202" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31897202" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -495,7 +577,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4672775" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4672775" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -575,13 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/confsvr/src/main/resources/config/licensingservice/licensingservice.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -612,15 +687,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/licensing-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="77" column="52" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
+        <state relative-caret-position="171">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/licensing-service/src/main/java/com/thoughtmechanix/licensingservice/config/ServiceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confsvr/src/main/resources/config/licensingservice/licensingservice.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/licensing-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state>
+          <caret selection-start-column="1" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
