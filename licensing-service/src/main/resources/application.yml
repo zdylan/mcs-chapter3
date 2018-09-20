@@ -1,16 +1,17 @@
-spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/test?characterEncoding=utf8&useSSL=false
-    username: root
-    password: root1234
-  jpa:
-#    hibernate:
-#      ddl-auto: update
-    show-sql: true
-management:
-  security:
-    enabled: false
+#spring:
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/test?characterEncoding=utf8&useSSL=false
+#    username: root
+#    password: root1234
+#  jpa:
+##    hibernate:
+##      ddl-auto: update
+#    show-sql: true
+#management:
+#  security:
+#    enabled: false
+#
+#
+#example:
+#  property: "Hello world"
 
-
-example:
-  property: "Hello world"

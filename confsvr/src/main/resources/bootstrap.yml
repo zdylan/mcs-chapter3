@@ -1,3 +1,22 @@
 spring:
   application:
     name: configserver
+#  profiles:
+#    active: native
+#  cloud:
+#    config:
+#      server:
+#        native:
+#          search-locations: file:///Users/zhanggai/idea_workspace/mcs-chapter3/confsvr/src/main/resources/config/licensingservice
+  cloud:
+    config:
+      server:
+        encrypt:
+          enabled: false
+        git:
+          uri: https://github.com/zdylan/config-repo
+          search-paths: licensingservice
+server:
+  port: 8888
+encrypt:
+  key: dylan

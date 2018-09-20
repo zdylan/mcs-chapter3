@@ -1,12 +1,17 @@
-example:
-  property: "I AM IN THE DEFAULT"
-
-spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/test?characterEncoding=utf8&useSSL=false
-    username: root
-    password: root1234
-  jpa:
-    hibernate:
-      ddl-auto: create
-    show-sql: true
+#spring:
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/test?characterEncoding=utf8&useSSL=false
+##    username: root
+##    password: root1234
+#    username: "{cipher}20a0e6059c5b0270033d41c0e8162347a71fc60ac2960d79dda259a1f13bdf8c"
+#    password: "{cipher}2f2c160b51eb6c98b821fb1d313569855b37854111f44ca598ad12afa2d396bc"
+#  jpa:
+##    hibernate:
+##      ddl-auto: update
+#    show-sql: true
+##management:
+##  security:
+##    enabled: false
+#
+#example:
+#  property: "Hello world"

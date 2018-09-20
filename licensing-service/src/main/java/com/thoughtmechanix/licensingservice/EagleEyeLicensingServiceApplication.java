@@ -6,9 +6,9 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 
-//@SpringBootApplication(exclude={DataSourceAutoConfiguration.class,HibernateJpaAutoConfiguration.class})
+
 @SpringBootApplication
-//@RefreshScope
+@RefreshScope
 public class EagleEyeLicensingServiceApplication {
 
     public static void main(String[] args) {
